@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import torch
-from src.models.dqfno import DQFNO
-from src.losses.custom_losses import MultiTaskLoss
-from src.losses.data_losses import LpLoss, H1Loss
+from dqno.models.dqfno import DQFNO
+from dqno.losses.custom_losses import MultiTaskLoss
+from dqno.losses.data_losses import LpLoss, H1Loss
 import os
 import json
 from datetime import datetime
