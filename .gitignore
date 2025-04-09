@@ -12,3 +12,4 @@ slurm_outputs
 *pylauncher_tmp*
 *.pth*
 *.png*
+*.ipynb_checkpoints*
