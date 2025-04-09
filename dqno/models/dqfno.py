@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from ..layers.embeddings import GridEmbedding2D
-from ..layers.channel_mlp import ChannelMLP
+from ..layers.channel_mlp import ChannelMLP, LinearChannelMLP
 from ..layers.spectral_convolution import SpectralConv
 from ..layers.fno_block import FNOBlocks
 from ..layers.derived import DerivedMLP
